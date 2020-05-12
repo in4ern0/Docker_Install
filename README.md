@@ -22,4 +22,4 @@
 
 * ``` docker-compose --version ```
 
-* ``` https://docs.docker.com/compose/install/ ``` - check docker-compose latest version 
+* https://docs.docker.com/compose/install/ - check docker-compose latest version 
