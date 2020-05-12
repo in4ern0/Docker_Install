@@ -1,24 +1,25 @@
 # DOCKER-CE (Community Edition)
 
-# Docker Remove
+###### Docker Remove
 
-sudo yum remove docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-selinux  docker-engine-selinux docker-engine
+* ``` sudo yum remove docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-selinux  docker-engine-selinux docker-engine ```
 
-# Docker Install
+###### Docker Install
 
-sudo yum install -y yum-utils device-mapper-persistent-data lvm2
-sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-sudo yum install docker-ce
+* ``` sudo yum install -y yum-utils device-mapper-persistent-data lvm2 ```
+* ``` sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo ```
+* ``` sudo yum install docker-ce```
 
-sudo systemctl enable --now docker
-sudo systemctl status docker
+* ``` sudo systemctl enable --now docker ```
 
-# Docker Compose Install
+* ``` sudo systemctl status docker ```
 
-sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+###### Docker Compose Install
 
-chmod +x /usr/local/bin/docker-compose
+* ``` sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose ```
 
-docker-compose --version
+* ``` chmod +x /usr/local/bin/docker-compose ```
 
-https://docs.docker.com/compose/install/ - check docker-compose version
+* ``` docker-compose --version ```
+
+* ``` https://docs.docker.com/compose/install/ - check docker-compose version ```
