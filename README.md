@@ -20,6 +20,6 @@
 
 * ``` chmod +x /usr/local/bin/docker-compose ```
 
-* ``` docker-compose -v ``` or --version
+* ``` docker-compose --version ```
 
 * ``` https://docs.docker.com/compose/install/ ``` - check docker-compose latest version 
