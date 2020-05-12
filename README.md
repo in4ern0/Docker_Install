@@ -1,4 +1,4 @@
-# DOCKER-CE (Community Edition) ####### for Centos 7 RHEL
+#### DOCKER-CE (Community Edition) for Centos 7 RHEL
 
 ###### Docker Remove
 
