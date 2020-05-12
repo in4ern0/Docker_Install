@@ -1,4 +1,4 @@
-# DOCKER-CE (Community Edition)
+# DOCKER-CE (Community Edition) 
 
 ###### Docker Remove
 
@@ -7,7 +7,7 @@
 ###### Docker Install
 
 * ``` sudo yum install -y yum-utils device-mapper-persistent-data lvm2 ```
-* ``` sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo ```
+* ``` sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo ``` 
 * ``` sudo yum install docker-ce```
 
 * ``` sudo systemctl enable --now docker ```
@@ -20,6 +20,6 @@
 
 * ``` chmod +x /usr/local/bin/docker-compose ```
 
-* ``` docker-compose --version ```
+* ``` docker-compose -v ``` or --version
 
-* ``` https://docs.docker.com/compose/install/ - check docker-compose version ```
+* ``` https://docs.docker.com/compose/install/ ``` - check docker-compose version 
